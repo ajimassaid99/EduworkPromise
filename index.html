@@ -14,8 +14,19 @@
   </head>
 
   <body>
+    <nav class="navbar bg-danger mb-lg-5">
+      <div class="container-fluid ">
+        <span class="navbar-brand mb-0 h1 text-white">News App</span>
+      </div>
+    </nav>
     <div class="container">
-      <h1>List of Users</h1>
+      <form>
+        <div class="mb-3">
+          <label for="Search" class="form-label">Search</label>
+          <input type="Search" class="form-control" id="Search" aria-describedby="SeatchHelp">
+          <div id="SearchHelp" class="form-text">Search Your News.</div>
+        </div>
+      </form>
       <div id="app"></div>
     </div>
     <script
